@@ -39,6 +39,6 @@ const getData = async () => {
 
 function writeGuideline (inp) {
     document.getElementById("headline").textContent = inp.guideline;
+    document.getElementById("description").textContent = inp.description;
 
 }
-
